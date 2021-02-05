@@ -1,0 +1,368 @@
+@media(min-width:1200px) {}
+
+/*===============(min-width:992px) and (max-width:1199px)=================*/
+@media(min-width:992px) and (max-width:1199px) {
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        margin: 0 15px;
+    }
+}
+
+/*================(min-width:768px) and (max-width:991px)==================*/
+@media(min-width:768px) and (max-width:991px) {
+
+    /*    navbar start*/
+    .header .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .navbar-light .navbar-brand {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
+        margin-right: 40px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid rgb(55, 160, 0);
+        padding: 10px 23px;
+        background: #000;
+    }
+
+    .navbar_hidden_img {
+        display: block;
+        padding: 5px 40px;
+    }
+
+    .navbar .mt-2,
+    .my-2 {
+        margin-top: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        margin: 3px 22px;
+    }
+
+    /*navbar end*/
+    /*portfolio start*/
+    #works {
+        padding-bottom: 50px;
+    }
+
+    .tab_item {
+        text-align: center;
+    }
+
+    .tab_item ul {
+        display: block;
+    }
+
+    .tab_item ul li {
+        margin-top: 5px;
+    }
+
+    .single_item {
+        width: 50%;
+    }
+
+    /*portfolio end*/
+    /*service start*/
+    #service {
+        padding-top: 50px;
+    }
+
+    .service_pt {
+        padding-top: 30px;
+    }
+
+    .service_item {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    /*service end*/
+
+    /*    pricing start*/
+    .item_size .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    /*    pricing end*/
+
+    /*    skill start*/
+    .skl_single_item {
+        padding-left: 20px;
+        padding-right: 38px;
+    }
+
+    .skill_text {
+        padding-top: 0px;
+        padding-left: 34px;
+    }
+
+}
+
+/*    skill end*/
+
+/*================(min-width:576px) and (max-width:767px)==================*/
+@media(min-width:576px) and (max-width:767px) {
+
+    /*    navbar start*/
+    .header .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .navbar-light .navbar-brand {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
+        margin-right: 40px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid rgb(55, 160, 0);
+        padding: 10px 23px;
+        background: #000;
+    }
+
+    .navbar_hidden_img {
+        display: block;
+        padding: 5px 40px;
+    }
+
+    .navbar .mt-2,
+    .my-2 {
+        margin-top: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        margin: 3px 22px;
+    }
+
+    /*navbar end*/
+
+    /*    about part start*/
+    .about_devider {
+        display: none;
+    }
+    .about_devider {
+        display: none;
+    }
+
+    .about_left.text-right {
+        text-align: left !important;
+    }
+
+    .about_text h2 {
+        display: block ruby;
+    }
+
+    .about_left .hidden_icon2 {
+        display: none;
+    }
+
+    .about_left .hidden_icon {
+        display:block;
+        margin-left: 0 !important;
+        margin-right: 30px !important;
+    }
+    /*    about part end*/
+
+    /*counter part start*/
+    #counters .col-md-3 {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    /*counter part end*/
+
+    /*portfolio part start*/
+
+    .tab_item {
+        text-align: center;
+    }
+
+    .tab_item ul {
+        display: block;
+    }
+
+    .tab_item ul li {
+        margin-top: 5px;
+    }
+
+    .single_item {
+        width: 50%;
+    }
+
+    /*portfolio part end*/
+
+    /*    skill part start*/
+    .skl_single_item {
+        padding-right: 30px;
+    }
+
+    /*    skill part end*/
+
+    /*contact part*/
+    .contact_map iframe {
+        position: unset;
+    }
+
+    /*contact part end*/
+
+}
+
+/*================(min-width:320px) and (max-width:575px)==================*/
+@media(min-width:320px) and (max-width:575px) {
+
+    /*    navbar start*/
+    .header .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .navbar-light .navbar-brand {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
+        margin-right: 40px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid rgb(55, 160, 0);
+        padding: 10px 23px;
+        background: #000;
+    }
+
+    .navbar_hidden_img {
+        display: block;
+        padding: 5px 40px;
+    }
+
+    .navbar .mt-2,
+    .my-2 {
+        margin-top: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        margin: 3px 22px;
+    }
+
+    /*navbar end*/
+
+    /*banner part start*/
+    .banner_text h2 {
+        font-size: 32px;
+    }
+
+    /*banner part end*/
+
+    /*    about part start*/
+    .about_devider {
+        display: none;
+    }
+    .about_devider {
+        display: none;
+    }
+
+    .about_left.text-right {
+        text-align: left !important;
+    }
+
+    .about_text h2 {
+        display: block ruby;
+    }
+
+    .about_left .hidden_icon2 {
+        display: none;
+    }
+
+    .about_left .hidden_icon {
+        display:block;
+        margin-left: 0 !important;
+        margin-right: 30px !important;
+    }
+    /*    about part end*/
+
+    /*    about section end*/
+
+    /*counter part start*/
+    #counters .col-md-3 {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    /*counter part end*/
+
+    /*portfolio part start*/
+
+    .tab_item {
+        text-align: center;
+    }
+
+    .tab_item ul {
+        display: block;
+    }
+
+    .tab_item ul li {
+        margin-top: 5px;
+    }
+
+    .single_item {
+        width: 100%;
+    }
+
+    /*portfolio part end*/
+
+    /*    skill part start*/
+    .skill_text h2 {
+        margin: -32px 0 11px;
+        font-size: 27px;
+    }
+
+    .skill_text {
+        padding-bottom: 0px;
+        max-height: 100%;
+        padding-left: 30px;
+    }
+
+    .skl_single_item {
+        padding-right: 35px;
+    }
+
+    /*    skill part end*/
+
+    /*    team part start*/
+
+    .singleTeamText p {
+        padding: 0;
+    }
+
+    /*    team part end*/
+
+    /*contact part start*/
+    .contact_map iframe {
+        position: unset;
+    }
+
+    /*contact part end*/
+    /*service part start*/
+    .service_item:hover .single_srvc_item i {
+        transform: translateY(-40%);
+    }
+
+    /*service part end*/
+
+
+}
